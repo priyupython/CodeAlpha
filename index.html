@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="Flex-container">
+        <h1> Age Calculator<br><span>in javascript</span> </h1>
+        <p id = "warn">"Mention Correct Date of Birth to Know Correct Age"</p>
+        <div class="calculator">
+            <label>Date of Birth:</label><br>
+            <input type = "date" id = "date" >
+            
+        </div>
+        
+            <button id = "cal_btn"> Calculate</button>
+            <button id = "rst_btn"> Reset</button>
+        <div class="Output">
+            <div class="output-items">
+                <span id = "block-years">-</span>
+                <p>Years</p>
+            </div>
+            <div class="output-items">
+                <span id = "block-months">-</span>
+                <p>Months</p>
+            </div>
+            <div class="output-items">
+                <span id = "block-days">-</span>
+                <p>Days</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
